@@ -1,0 +1,6 @@
+[workspace]
+members = ["mercado-core", "models", "processar-csv"]
+
+[workspace.dependencies]
+models = { path = "./models" }
+mercado-core = { path = "./mercado-core" }
